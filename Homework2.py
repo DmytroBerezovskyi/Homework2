@@ -1,7 +1,9 @@
-print('Escape sequences:','\n','\t' '              \ a''            Bell (alert)',
-'\n''\t''              \ b''            Backspace',
-'\n''\t''              \ n''            New Line',
-'\n''\t''              \ t''            Horizontal tab',
-'\n''\t''              \ \ ''           Backslash \ ',
-'\n''\t''              \ " ''           Double quotation mark " ',
-'\n''\t''              \ \'' '            Single quotation mark'" '")
+print('Escape sequences:','\n','\t\t\t\t' r'\a' "            Bell (alert)",
+"\n \t\t\t\t"              r'\b'"            Backspace",
+"\n \t\t\t\t"              r'\n'"            New Line",
+"\n \t\t\t\t"              r'\t' "            Horizontal tab",
+"\n \t\t\t\t"              r'\\'"            Backslash \ ",
+"\n \t\t\t\t"              r'\" '"           Double quotation mark"
+"\n \t\t\t\t"              r'\' ' "           Single quotation mark" "'")
+
+
